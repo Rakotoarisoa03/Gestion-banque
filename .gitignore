@@ -1,0 +1,13 @@
+.env
+
+writable/cache/*
+writable/logs/*
+writable/session/*
+writable/uploads/*
+writable/debugbar/*
+
+vendor/
+
+node_modules/
+.DS_Store
+php_errors.log
