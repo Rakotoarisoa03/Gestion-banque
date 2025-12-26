@@ -25,7 +25,7 @@ class Database extends Config
      * @var array<string, mixed>
      */
     public array $default = [
-        'DSN'          => 'pgsql:host=ep-jolly-mud-ahg6hrc7-pooler.c-3.us-east-1.aws.neon.tech;port=5432;dbname=neondb;sslmode=require',
+        'DSN'          => 'postgresql://neondb_owner:npg_KExv8XtJ0rgU@ep-jolly-mud-ahg6hrc7-pooler.c-3.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require',
         'hostname'     => 'ep-jolly-mud-ahg6hrc7-pooler.c-3.us-east-1.aws.neon.tech',
         'username'     => 'neondb_owner',
         'password'     => 'npg_KExv8XtJ0rgU', 
